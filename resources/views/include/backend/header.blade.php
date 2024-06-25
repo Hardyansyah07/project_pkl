@@ -1,6 +1,4 @@
-
- <!--start header-->
- <header class="top-header">
+<header class="top-header">
   <nav class="navbar navbar-expand align-items-center gap-4">
     <div class="btn-toggle">
       <a href="javascript:;"><i class="material-icons-outlined">menu</i></a>
@@ -112,24 +110,24 @@
         <a class="nav-link" href="javascript:;"><i class="material-icons-outlined">search</i></a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="avascript:;" data-bs-toggle="dropdown"><img src="{{asset('backend/assets/images/county/02.png')}}" width="22" alt="">
+        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="avascript:;" data-bs-toggle="dropdown"><img src="assets/images/county/02.png" width="22" alt="">
         </a>
         <ul class="dropdown-menu dropdown-menu-end">
-          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{asset('backend/assets/images/county/01.png')}}" width="20" alt=""><span class="ms-2">English</span></a>
+          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{ asset('backend/assets/images/county/01.png')}}" width="20" alt=""><span class="ms-2">English</span></a>
           </li>
-          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{asset('backend/assets/images/county/02.png')}}" width="20" alt=""><span class="ms-2">Catalan</span></a>
+          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{ asset('backend/assets/images/county/02.png')}}" width="20" alt=""><span class="ms-2">Catalan</span></a>
           </li>
-          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{asset('backend/assets/images/county/03.png')}}" width="20" alt=""><span class="ms-2">French</span></a>
+          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{ asset('backend/assets/images/county/03.png')}}" width="20" alt=""><span class="ms-2">French</span></a>
           </li>
-          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{asset('backend/assets/images/county/04.png')}}" width="20" alt=""><span class="ms-2">Belize</span></a>
+          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{ asset('backend/assets/images/county/04.png')}}" width="20" alt=""><span class="ms-2">Belize</span></a>
           </li>
-          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{asset('backend/assets/images/county/05.png')}}" width="20" alt=""><span class="ms-2">Colombia</span></a>
+          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{ asset('backend/assets/images/county/05.png')}}" width="20" alt=""><span class="ms-2">Colombia</span></a>
           </li>
-          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{asset('backend/assets/images/county/06.png')}}" width="20" alt=""><span class="ms-2">Spanish</span></a>
+          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{ asset('backend/assets/images/county/06.png')}}" width="20" alt=""><span class="ms-2">Spanish</span></a>
           </li>
-          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{asset('backend/assets/images/county/07.png')}}" width="20" alt=""><span class="ms-2">Georgian</span></a>
+          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{ asset('backend/assets/images/county/07.png')}}" width="20" alt=""><span class="ms-2">Georgian</span></a>
           </li>
-          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{asset('backend/assets/images/county/08.png')}}" width="20" alt=""><span class="ms-2">Hindi</span></a>
+          <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="{{ asset('backend/assets/images/county/08.png')}}" width="20" alt=""><span class="ms-2">Hindi</span></a>
           </li>
         </ul>
       </li>
@@ -160,7 +158,7 @@
                 <div class="card rounded-4 shadow-none border mb-0">
                   <div class="card-body">
                     <div class="d-flex align-items-start gap-3">
-                      <img src="{{asset('backend/assets/images/megaIcons/02.png')}}" width="40" alt="">
+                      <img src="{{ asset('backend/assets/images/megaIcons/02.png')}}" width="40" alt="">
                       <div class="mega-menu-content">
                          <h5>Website</h5>
                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
@@ -174,7 +172,7 @@
                 <div class="card rounded-4 shadow-none border mb-0">
                   <div class="card-body">
                     <div class="d-flex align-items-start gap-3">
-                      <img src="{{asset('backend/assets/images/megaIcons/03.png')}}" width="40" alt="">
+                      <img src="{{ asset('backend/assets/images/megaIcons/03.png')}}" width="40" alt="">
                       <div class="mega-menu-content">
                           <h5>Subscribers</h5>
                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
@@ -188,7 +186,7 @@
                 <div class="card rounded-4 shadow-none border mb-0">
                   <div class="card-body">
                     <div class="d-flex align-items-start gap-3">
-                      <img src="{{asset('backend/assets/images/megaIcons/01.png')}}" width="40" alt="">
+                      <img src="assets/images/megaIcons/01.png" width="40" alt="">
                       <div class="mega-menu-content">
                          <h5>Hubspot</h5>
                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
@@ -202,7 +200,7 @@
                 <div class="card rounded-4 shadow-none border mb-0">
                   <div class="card-body">
                     <div class="d-flex align-items-start gap-3">
-                      <img src="{{asset('backend/assets/images/megaIcons/11.png')}}" width="40" alt="">
+                      <img src="assets/images/megaIcons/11.png" width="40" alt="">
                       <div class="mega-menu-content">
                          <h5>Templates</h5>
                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
@@ -216,7 +214,7 @@
                 <div class="card rounded-4 shadow-none border mb-0">
                   <div class="card-body">
                     <div class="d-flex align-items-start gap-3">
-                      <img src="{{asset('backend/assets/images/megaIcons/13.png')}}" width="40" alt="">
+                      <img src="assets/images/megaIcons/13.png" width="40" alt="">
                       <div class="mega-menu-content">
                          <h5>Ebooks</h5>
                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
@@ -564,7 +562,7 @@
             <div class="text-center">
               <img src="https://placehold.co/110x110/png" class="rounded-circle p-1 shadow mb-3" width="90" height="90"
                 alt="">
-              <h5 class="user-name mb-0 fw-bold">Hello, Jhon</h5>
+              <h5 class="user-name mb-0 fw-bold">Halo, {{ Auth::user()->name}}</h5>
             </div>
           </a>
           <hr class="dropdown-divider">
@@ -579,12 +577,16 @@
             <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
               class="material-icons-outlined">cloud_download</i>Downloads</a>
           <hr class="dropdown-divider">
-          <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+          <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i
           class="material-icons-outlined">power_settings_new</i>Logout</a>
+          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                 @csrf
+            </form>
         </div>
       </li>
     </ul>
 
   </nav>
 </header>
-<!--end top header-->

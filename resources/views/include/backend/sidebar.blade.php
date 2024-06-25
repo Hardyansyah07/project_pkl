@@ -14,6 +14,14 @@
       <!--navigation-->
       <ul class="metismenu" id="sidenav">
         <li>
+          <a href="{{route('User.index')}}">
+            <div class="parent-icon"><i class="material-icons-outlined">inventory_2</i>
+            </div>
+            <div class="menu-title">ACL</div>
+          </a>
+        </li>
+        <li>
+
           <a href="javascript:;" class="has-arrow">
             <div class="parent-icon"><i class="material-icons-outlined">home</i>
             </div>

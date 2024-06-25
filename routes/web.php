@@ -1,22 +1,41 @@
 <?php
 
-use App\Models\Brand;
+use App\Http\Controllers\UserController;
+// use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
-Route::get('/tt', function () {
-    return view('welcome');
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::group(['prefix'=>'admin'], function(){
+    Route::resource('User',UserController::class);
 });
 
 Route::get('/', function () {
     return view('layouts.backend');
-})-> middleware('auth');
+})->middleware('auth');
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-// tambah dibawah ini
-Route::resource('brand', App\Http\Controllers\brandController::class)->middleware('auth');
-
-Route::get('/data', function () {
+Route::get('data', function () {
     return view('data');
 });
+
+
+Auth::routes(
+    // ['register' => false]
+);
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::resource('product', App\Http\Controllers\ProductController::class)->middleware('auth');
+// Route::resource('brand', App\Http\Controllers\BrandController::class)->middleware('auth');

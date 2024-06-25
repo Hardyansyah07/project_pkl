@@ -77,7 +77,7 @@
       <div class="order-list">
         <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
           <div class="order-img">
-            <img src="https://placehold.co/200x150/png" class="img-fluid rounded-3" width="75" alt="">
+            <img src="{{ asset('backend/https://placehold.co/200x150/png')}}" class="img-fluid rounded-3" width="75" alt="">
           </div>
           <div class="order-info flex-grow-1">
             <h5 class="mb-1 order-title">White Men Shoes</h5>
@@ -91,7 +91,7 @@
 
         <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
           <div class="order-img">
-            <img src="https://placehold.co/200x150/png" class="img-fluid rounded-3" width="75" alt="">
+            <img src="{{ asset('backend/https://placehold.co/200x150/png')}}" class="img-fluid rounded-3" width="75" alt="">
           </div>
           <div class="order-info flex-grow-1">
             <h5 class="mb-1 order-title">Red Airpods</h5>
@@ -105,7 +105,7 @@
 
         <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
           <div class="order-img">
-            <img src="https://placehold.co/200x150/png" class="img-fluid rounded-3" width="75" alt="">
+            <img src="{{ asset('backend/https://placehold.co/200x150/png')}}" class="img-fluid rounded-3" width="75" alt="">
           </div>
           <div class="order-info flex-grow-1">
             <h5 class="mb-1 order-title">Men Polo Tshirt</h5>
@@ -119,7 +119,7 @@
 
         <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
           <div class="order-img">
-            <img src="https://placehold.co/200x150/png" class="img-fluid rounded-3" width="75" alt="">
+            <img src="{{ asset('backend/https://placehold.co/200x150/png')}}" class="img-fluid rounded-3" width="75" alt="">
           </div>
           <div class="order-info flex-grow-1">
             <h5 class="mb-1 order-title">Blue Jeans Casual</h5>
@@ -133,7 +133,7 @@
 
         <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
           <div class="order-img">
-            <img src="https://placehold.co/200x150/png" class="img-fluid rounded-3" width="75" alt="">
+            <img src="{{ asset('backend/https://placehold.co/200x150/png')}}" class="img-fluid rounded-3" width="75" alt="">
           </div>
           <div class="order-info flex-grow-1">
             <h5 class="mb-1 order-title">Fancy Shirts</h5>
@@ -147,7 +147,7 @@
 
         <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
           <div class="order-img">
-            <img src="https://placehold.co/200x150/png" class="img-fluid rounded-3" width="75" alt="">
+            <img src="{{ asset('backend/https://placehold.co/200x150/png')}}" class="img-fluid rounded-3" width="75" alt="">
           </div>
           <div class="order-info flex-grow-1">
             <h5 class="mb-1 order-title">Home Sofa Set </h5>
@@ -161,7 +161,7 @@
 
         <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
           <div class="order-img">
-            <img src="https://placehold.co/200x150/png" class="img-fluid rounded-3" width="75" alt="">
+            <img src="{{ asset('backend/https://placehold.co/200x150/png')}}" class="img-fluid rounded-3" width="75" alt="">
           </div>
           <div class="order-info flex-grow-1">
             <h5 class="mb-1 order-title">Black iPhone</h5>
@@ -175,7 +175,7 @@
 
         <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
           <div class="order-img">
-            <img src="https://placehold.co/200x150/png" class="img-fluid rounded-3" width="75" alt="">
+            <img src="{{ asset('backend/https://placehold.co/200x150/png')}}" class="img-fluid rounded-3" width="75" alt="">
           </div>
           <div class="order-info flex-grow-1">
             <h5 class="mb-1 order-title">Goldan Watch</h5>
